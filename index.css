@@ -161,3 +161,6 @@ p
     display: flex;
     flex-direction: column;
 }
+
+.attribution { font-size: 11px; text-align: center; margin-top: 10px;}
+.attribution a { color: hsl(228, 45%, 44%); }
