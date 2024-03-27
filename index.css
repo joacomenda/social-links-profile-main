@@ -1,0 +1,166 @@
+@font-face
+{
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-family: Inter;
+}
+
+/*
+XS
+@media all and (min-width:475px)
+{
+    .container
+    {
+        max-width: 475px;
+        border: 1px solid red;
+    }
+}
+
+SM
+@media(min-width:640px)
+{
+    .container
+    {
+        max-width: 640px;
+        border: 1px solid yellow;
+    }
+}
+
+MD
+@media(min-width:768px)
+{
+    .container
+    {
+        max-width: 768px;
+    }
+}
+
+LG
+@media(min-width:1024px)
+{
+    .container
+    {
+        max-width: 1024px;
+    }
+}
+
+XL
+@media(min-width:1280px)
+{
+    .container
+    {
+        max-width: 1280px;
+    }
+}
+
+2XL
+@media(min-width:1536px)
+{
+    .container
+    {
+        max-width: 1536px;
+    }
+}
+*/
+
+@media all and (min-width:320px)
+{
+    .container
+    {
+        max-width: 260px;
+        border: 1px solid red;
+    }
+}
+
+
+@media all and (min-width:375px)
+{
+    .container
+    {
+        max-width: 280px;
+        border: 1px solid red;
+    }
+}
+
+@media all and (min-width:500px)
+{
+    .container
+    {
+        max-width: 400px;
+        border: 1px solid red;
+    }
+}
+
+body
+{
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+    color: white;
+    margin-top: 10vh;
+}
+
+h2
+{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+p
+{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.container
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+
+.avatar-image
+{
+    width: 80px;
+    border-radius: 40px;
+}
+
+.location-text
+{
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+
+.information-of-user
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link
+{
+    font-weight: 600;
+}
+
+.link-container
+{
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.link-container:hover
+{
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+}
+
+.user-links
+{
+    display: flex;
+    flex-direction: column;
+}
