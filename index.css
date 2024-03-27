@@ -4,64 +4,6 @@
     font-family: Inter;
 }
 
-/*
-XS
-@media all and (min-width:475px)
-{
-    .container
-    {
-        max-width: 475px;
-        border: 1px solid red;
-    }
-}
-
-SM
-@media(min-width:640px)
-{
-    .container
-    {
-        max-width: 640px;
-        border: 1px solid yellow;
-    }
-}
-
-MD
-@media(min-width:768px)
-{
-    .container
-    {
-        max-width: 768px;
-    }
-}
-
-LG
-@media(min-width:1024px)
-{
-    .container
-    {
-        max-width: 1024px;
-    }
-}
-
-XL
-@media(min-width:1280px)
-{
-    .container
-    {
-        max-width: 1280px;
-    }
-}
-
-2XL
-@media(min-width:1536px)
-{
-    .container
-    {
-        max-width: 1536px;
-    }
-}
-*/
-
 @media all and (min-width:320px)
 {
     .container
